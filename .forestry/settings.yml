@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5e435e71f866cb001322767c/webhook/forestry
 sections:
-- type: heading
-  label: Heading
 - type: document
   path: site-metadata.json
   label: config
@@ -44,6 +42,8 @@ sections:
   label: Site Menus
   templates:
   - site_menus
+- type: heading
+  label: Heading
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
